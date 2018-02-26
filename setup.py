@@ -58,7 +58,7 @@ an incredible python package
     entry_points={
         'console_scripts': [
             # add cli scripts here in this form:
-            # 'cli=cli.cli:main',
+            'cli=cli.cli:main',
         ],
     },
 )
